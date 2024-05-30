@@ -21,6 +21,9 @@ app.layout = dbc.Container([
         dbc.Col(html.H1("Black Cutworm Dashboard"), width=12, className="mb-2")
     ]),
     dbc.Row([
+        dbc.Col(html.H6("Created by Vidit Agrawal, Emily Bick, and Krista Hamilton"), width=12, className="mb-2")
+    ]),
+    dbc.Row([
         # Left half: slider and map
         dbc.Col([
             dcc.Slider(
